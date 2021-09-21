@@ -1,5 +1,7 @@
 import React from "react";
 import './MovieRow.css'
+// import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+// import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 
 export default ({title, items}) => {
@@ -10,6 +12,11 @@ export default ({title, items}) => {
             <h2>{title}</h2>
             
             <div className="moviRow--left">
+                {/* <NavigateBeforeIcon /> */}
+            </div>
+
+            <div className="moviRow--right">
+                {/* <NavigateNextIcon /> */}
             </div>
 
             <div className="movieRow--listarea">
